@@ -1,0 +1,35 @@
+
+Components Required:
+NodeMCU ESP8266
+
+4-Channel Relay Module
+
+Push Buttons (Manual Control)
+
+WiFi Status LED
+
+Power Source (5V DC)
+
+Jumper Wires
+
+Breadboard (Optional)
+
+Wiring Connections:
+NodeMCU to Relay Module:
+Relay	NodeMCU GPIO Pin	Pin Label on Board
+Relay 1	D1 (GPIO5)	RelayPin1
+Relay 2	D2 (GPIO4)	RelayPin2
+Relay 3	D5 (GPIO14)	RelayPin3
+Relay 4	D6 (GPIO12)	RelayPin4
+GND	GND	-
+VCC	VIN (or 5V)	-
+NodeMCU to Switches (Manual Control):
+Switch	NodeMCU GPIO Pin	Pin Label on Board
+Switch 1	SD3 (GPIO10)	SwitchPin1
+Switch 2	D3 (GPIO0)	SwitchPin2
+Switch 3	D7 (GPIO13)	SwitchPin3
+Switch 4	RX (GPIO3)	SwitchPin4
+WiFi Indicator LED:
+LED Pin	NodeMCU GPIO Pin
++ (Anode)	D0 (GPIO16)
+- (Cathode)	GND
